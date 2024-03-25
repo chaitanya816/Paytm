@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    max-width: 100%;
+}
+
+header {
+    background-color: aliceblue;
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    box-shadow: grey 5px;
+    /* box-shadow: ; */
+    /* box-shadow: 10px 10px 5px 12px lightblue; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+
+}
+
+.menu_items {
+
+    padding: 25px;
+    font-weight: bolder;
+
+}
+
+.menu7 {
+    margin-left: 50px;
+    background-color: rgb(18, 156, 224);
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    width: 105px;
+    /* height: 50px; */
+}
+
+.menu8 {
+
+    position: relative;
+    top: 0;
+    right: 35px;
+
+}
+
+.signicon {
+    width: 35px;
+}
+
+:hover.menuhover {
+    background-color: rgb(218, 232, 247);
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+:hover.menu7 {
+    background-color: rgb(32, 32, 81);
+}
+
+:hover.signicon {
+    /* background-color: #fff; */
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 178, 13);
+    padding: 10px;
+    padding-top: 20px;
+    width: 100vw;
+    /* position:absolute;
+    top: 100px; */
+
+}
+
+.notification {
+    /* padding-right: 15px; */
+
+}
+
+.march {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 156, 224);
+}
+
+
+/* HALDIRAM */
+ul {
+    list-style-type: none;
+}
+
+.haldiram {
+    display: flex;
+    padding: 100px;
+}
+
+.scratch {
+    width: 550px;
+}
+
+.pytm {
+    width: 90px;
+}
+
+.loved_app {
+    /* width: 50%; */
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+.recharge {
+    padding-top: 10px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Download_btn {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btndownload {
+    padding-top: 35px;
+}
+
+.fabtn {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    /* size: 25px; */
+}
+
+/* ALL SERVICES */
+.paybills {
+    color: white;
+    background-color: rgb(41, 165, 227);
+}
+
+.allservices {
+    display: flex;
+    gap: 85px;
+}
+
+.serviceicon {
+    width: 55px;
+}
+
+.paybillsonpaytm {
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.services {
+    padding: 10px;
+    align-items: center;
+    width: 9%;
+    font-size: 15px;
+    /* border: 2px solid red; */
+}
+
+:hover.services {
+    background-color: rgb(18, 156, 224);
+    border-radius: 25px;
+}
+
+.rechargeandbill {
+    padding: 25px;
+    padding-bottom: 45px;
+    font-size: 40px;
+}
+
+/* BOOK TICKET */
+.allservicesbook {
+    display: flex;
+
+    gap: 75px;
+    padding-bottom: -20px;
+}
+
+.bookticket {
+    color: white;
+    background-color: rgb(54, 54, 126);
+}
+
+.servicesbook {
+    padding: 10px;
+    align-items: center;
+    width: 9%;
+    font-size: 18px;
+}
+
+:hover.servicesbook {
+    border-radius: 25px;
+    background-color: rgba(77, 77, 126, 0.389);
+
+}
+
+/* PAYMENT INSTRUMENTS */
+.paymentinstruments {
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: aliceblue;
+    padding: 150px;
+}
+
+.paytmwallet {
+    width: 80vw;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    padding: 100px;
+
+}
+
+.Fastestway {
+    font-size: 40px;
+}
+
+.load {
+    font-weight: lighter;
+}
+
+.wallet {
+    width: 75px;
+    float: left;
+}
+
+.pytmwallet {
+    padding-top: 20px;
+    font-weight: bold;
+    display: relative;
+    top: 0;
+    left: 50px;
+    /* padding: 10px; */
+}
+
+.walletpytm {
+    padding-top: 55px;
+}
+
+.instruments {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.paymentinstruments250 {
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: aliceblue;
+    padding-left: 150px;
+    margin-top: -100px;
+}
+
+.list {
+    /* margin-top: 25px; */
+    background-color: white;
+    /* width: 200px; */
+    border: 2px solid rgb(208, 206, 206);
+    border-radius: 5px;
+}
+
+.menuul_2 {
+    font-weight: lighter;
+    padding: 15px;
+    font-size: small;
+    /* visibility: hidden; */
+}
+
+.eachlli {
+    padding: 5px;
+}
+
+.list_1 {
+    /* position: absolute; */
+    top: 75px;
+    left: 575px;
+    /* margin-top: 25px; */
+    background-color: white;
+
+    border: 2px solid rgb(208, 206, 206);
+    border-radius: 5px;
+    visibility: hidden;
+    
+}
+
+.list_2 {
+    /* position: absolute; */
+    top: 75px;
+    left: 975px;
+    /* margin-top: 25px; */
+    background-color: white;
+    /* width: 250px; */
+    border: 2px solid rgb(208, 206, 206);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.flex {
+    /* left: 50px; */
+    width: 90vw;
+    /* background-color: blue; */
+    /* border: 2px solid red; */
+    border-radius: 25px;
+    margin-left: 25px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.bacxk {
+    background-color: aliceblue;
+}
+
+.sbi_icon,
+.Hdfc_icon {
+    width: 250px;
+}
+
+.sbi_icon {
+    padding-top: 70px;
+}
+
+.hdfc_card,
+.sbi_card {
+    width: 450px;
+}
+
+.unlimted_hdfc,
+.unlimted_sbi {
+    /* width: 50%; */
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.unlimtedHdfcP,
+.unlimtedsbiP {
+    padding-top: 10px;
+    /* width: 70%; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.unlimtedHdfcsmallp,
+.unlimtedsbismallp {
+    font-size: 10px;
+    width: 70%;
+    color: grey;
+}
+
+.hdfc,
+.sbi {
+    padding: 50px;
+    /* width: 70%; */
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.sbi {
+    /* margin-left: 25px; */
+}
+
+.hdfc {
+    margin-left: 125px;
+}
+
+.know {
+    color: blue;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+    background-color: rgb(216, 223, 230);
+}
+
+.footer1st {
+    display: flex;
+    padding: 150px;
+}
+
+.Download_paytm {
+    width: 50%;
+}
+
+.footerdnld {
+    /* position: relative; */
+    margin-left: -50px;
+    display: flex;
+    /* width: px; */
+
+}
+
+/* .hr1{
+    margin-top: -50px;
+}
+
+.lasthr{
+    position: relative;
+    top: -25px;
+    left:200px ;
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+}
+.lasthr1{
+    position: relative;
+    top: 45px;
+    left:230px ;
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+}
+.lasthr2{
+    position: relative;
+    top: 45px;
+    left:150px ;
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+} */
+.faqhr {
+    margin-top: -150px;
+}
+
+.last1 {
+    height: 15px;
+    background-color: rgb(18, 156, 224);
+    border: 2px solid rgb(18, 156, 224);
+}
+
+.last2 {
+    height: 15px;
+    background-color: rgb(2, 2, 27);
+    border: 2px solid rgb(2, 2, 27);
+}
+
+.inst1 {
+    display: flex;
+    justify-content: right;
+    padding-left: 250px;
+
+}
+
+.insta {
+
+    padding: 25px;
+}
+
+.x {
+    width: 30px;
+}
+
+.facebook {
+    width: 20px;
+}
+
+/* FINANCIAL SERVICES */
+
+.newfinacne{
+    margin-top: 50px;
+    background-color: white;
+    padding: 150px;
+    /* display: flex; */
+}
+.newp{
+    width: 50%;
+}
+.paymnetbank{
+    width: 250px;
+}
+.financial_new{
+    font-size: 50px;
+}
+.newlist{
+    padding: 25px;
+}
+.newlisth2{
+    font-size: 40px;
+    width: 35%;
+    font-weight: bolder;
+}
+.rupay{
+    position:absolute;
+    width: 400px;
+    right:100px;
+    bottom: -4300px;
+    
+}
+.learn_more{
+    background-color: #2e2e5f;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #2e2e5f;
+    width: 150px;
+    height: 50px;
+}
+.hello,.hello1,.hello2{
+    cursor: pointer;
+}
+@media only screen and (width<1450px) {
+
+    .allservicesbook,
+    .allservices {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .scratch {
+        padding-top: 50px;
+        width: 350px;
+    }
+
+    .paytmwallet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .haldiram {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sbi {
+        margin-left: 150px;
+    }
+
+    .container {
+        /* display: inline; */
+        flex-wrap: wrap;
+    }
+
+    .loved_app,
+    .instruments,
+    .Fastestway {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (width<585px) {
+
+    .loved_app,
+    .Fastestway {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .recharge,
+    .load {
+        font-size: 8px;
+    }
+
+    .paytmwallet {
+        width: 99vw;
+    }
+
+    .allservices {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .serviceicon,.servicesbook {
+        padding: 25px;
+        width: 25px;
+    }
+    .paymentinstruments250{
+        align-items: center;
+        margin-left:-50px ;
+    }
+    .hdfc{
+        margin-left: -8px;
+    }
+    .sbi{
+        margin-left: -10px;
+    }
+    .instruments{
+        width: 100%;
+    }
+    .walletpytm{
+        margin-left: -25px;
+        width: 80%;
+    }
+
+
+}
