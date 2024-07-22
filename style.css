@@ -277,13 +277,43 @@ ul {
     border-radius: 5px;
 }
 
-.menuul_2 {
+.menuul_2 ,.menuul_3,.menuul_4{
     font-weight: lighter;
     padding: 15px;
     font-size: small;
+    display: none;
     /* visibility: hidden; */
 }
-
+.menu2:hover .menuul_2{
+    display:block;
+    position: absolute;
+    top: 75px;
+    background-color: rgb(101, 117, 131);
+    border-radius: 10px;
+    /* top: 0px; */
+}
+hr{
+   
+    border:1px solid  rgb(144, 136, 136);
+}
+.menu3:hover .menuul_3{
+    display:block;
+    position: absolute;
+    top: 75px;
+    background-color: rgb(97, 113, 125);
+    border-radius: 10px;
+ 
+   
+}
+.menu5:hover .menuul_4{
+    display:block;
+    position: absolute;
+    top: 75px;
+    background-color: rgb(97, 113, 125);
+    border-radius: 10px;
+ 
+   
+}
 .eachlli {
     padding: 5px;
 }
